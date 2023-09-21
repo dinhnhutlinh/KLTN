@@ -1,0 +1,24 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ embeddings (Embedding)      (None, 300, 300)          6000000   
+                                                                 
+ lstm (LSTM)                 (None, 300, 100)          160400    
+                                                                 
+ global_max_pooling1d (Globa  (None, 100)              0         
+ lMaxPooling1D)                                                  
+                                                                 
+ dropout (Dropout)           (None, 100)               0         
+                                                                 
+ dense (Dense)               (None, 30)                3030      
+                                                                 
+ dropout_1 (Dropout)         (None, 30)                0         
+                                                                 
+ dense_1 (Dense)             (None, 6)                 186       
+                                                                 
+=================================================================
+Total params: 6,163,616
+Trainable params: 163,616
+Non-trainable params: 6,000,000
+_________________________________________________________________
