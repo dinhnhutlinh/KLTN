@@ -1,0 +1,20 @@
+.endpoint {
+  margin-bottom: 40px;
+}
+.endpoint h2 {
+  margin-bottom: 10px;
+}
+.endpoint p {
+  margin-bottom: 5px;
+}
+.endpoint pre {
+  background-color: #353740;
+  padding: 10px;
+  margin: 0px;
+  color: whitesmoke;
+}
+.code-example {
+  background-color: #202123;
+  padding: 10px;
+  border-radius: 5px;
+}

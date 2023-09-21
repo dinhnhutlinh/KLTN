@@ -1,0 +1,9 @@
+djangorestframework
+markdown
+django-filter
+tensorflow
+contractions
+nltk
+djangorestframework-simplejwt
+django-cors-headers
+django-environ

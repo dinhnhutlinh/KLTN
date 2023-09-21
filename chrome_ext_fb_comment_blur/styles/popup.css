@@ -1,0 +1,25 @@
+
+body {
+    width: 250px;
+    font-size: 20px;
+}
+
+.radio_container {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.radio_container > input {
+    margin-right: 10px;
+}
+
+#blur {
+    color: white;
+    background-color: darkcyan;
+    border-radius: 5px;
+    padding: 7px;
+    font-weight: 300;
+}
